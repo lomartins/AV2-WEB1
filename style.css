@@ -1,0 +1,103 @@
+hr {
+    height: 15px;
+    background-color: red;
+}
+
+
+div.questao {
+    display: table;
+    margin: 0 auto;
+}
+
+#textao {
+    margin-top: 40px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+table, th, td {
+    border-style: solid;
+    border-color: red;
+    border-collapse: collapse;
+}
+
+th.titleTab {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    background-image: url(Chrsitina.jpg);
+    background-size: cover;
+}
+
+td.notaBoa {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    background-image: url(stonks-meme.jpg);
+    background-size: cover;
+}
+
+td.notaBaixa {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    background-image: url(not-stonks.png);
+    background-size: cover;
+}
+
+div.tituloForm, footer.tituloForm {
+    position: absolute;
+    color: white;
+    text-align: center;
+    background-color: rgb(175, 0, 0);
+    width: 100%;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+fieldset {
+    margin: 70px auto;
+    margin-top: 20px;
+    width: 30%;
+    background-image: url(cadastro.jpeg);
+    background-size: cover;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    color: rgb(0, 92, 54);
+}
+
+legend{
+    color: rgb(0, 36, 36);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#leftKurisu {
+    width: 25%;
+    float: left;
+}
+
+#rightKurisu {
+    width: 25%;
+    float: right;
+}
+
+
+#questao3 {
+    width: 100%;
+}
+
+#formulario {
+    background-color: grey;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    height: 220px;
+}
